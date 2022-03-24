@@ -72,3 +72,7 @@ If you don't have a working NodeJS environment, you can also simply put your `in
 
 After submitting the form, if your Flow is working as intended, you'll receive an email with the submitted form values.
 
+## Notes
+
+The idea for this proof-of-concept was inpired by [this article](https://powerusers.microsoft.com/t5/Power-Automate-Community-Blog/Use-Microsoft-Flow-to-Integrate-Your-Website-s-Forms-with/ba-p/45206)
+
