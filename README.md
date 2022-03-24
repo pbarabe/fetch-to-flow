@@ -13,7 +13,7 @@ using the [JavaScript Fetch API](https://developer.mozilla.org/en-US/docs/Web/AP
 
 ### 1. Create the PowerAutomate Flow
 
-First, use your web browser to navigate to the [Office 365 PowerAutomate Web API](https://flow.microsoft.com/) and create a new _Instant Cloud Flow_.
+First, use your web browser to navigate to the [Office 365 PowerAutomate Web API](https://flow.microsoft.com/) and create a new **Instant Cloud Flow**.
 Give your new flow a name, and where asked how to trigger the flow, find and select `When an HTTP request is received` from the list.
 Click **Create**.
 
@@ -50,9 +50,9 @@ This might look something like:
 
 > You submitted the form. Here's what you told us:
 > 
-> Your name: [`name`]
-> Your email: [`email`]
-> A thing you like: [`topic`]
+> Your name: [`name`]  
+> Your email: [`email`]  
+> A thing you like: [`topic`]  
 > 
 > The form was submitted using the [`source`] tool.
 
@@ -61,12 +61,12 @@ Save your flow and then copy the `HTTP POST URL` from the trigger.
 ### 2. Configure the HTML Form 
 
 Open the `index.html` file in this repository in your text editor.
-Find the `<script>` tag at the bottom of the page and update the value of the `myFlowURL` constant with the URL you copied from your flow.
+Find the `<script>` tag at the bottom of the page and update the value of the `myFlowURL` constant with the URL you copied from your flow&#39;s trigger.
 
 ### 3. Using the Form
 
 If you cloned this repository to your NodeJS environment, install it (`$ npm install`) and then run `$ npm run serve`.
-Visit <http://127.0.0.1:8080> in your browser and submit the form.
+Visit <http://127.0.0.1:8080> in your browser, then fill and and submit the form.
 
 If you don't have a working NodeJS environment, you can also simply put your `index.html` file on a web server (preferably a development or other private environment) and access it there.
 
