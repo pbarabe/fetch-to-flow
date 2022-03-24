@@ -1,0 +1,23 @@
+{
+  "name": "fetch-to-flow",
+  "version": "1.0.0",
+  "description": "Proof-of-Concept using an HTML form and the JavaScript Fetch API to POST to a PowerAutomate Request Trigger URL",
+  "main": "index.html",
+  "scripts": {
+    "serve": "./node_modules/.bin/http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbarabe/fetch-to-flow.git"
+  },
+  "author": "Patrick Barabe <pbarabe@arizona.edu>",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/pbarabe/fetch-to-flow/issues"
+  },
+  "homepage": "https://github.com/pbarabe/fetch-to-flow#readme",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
+}
