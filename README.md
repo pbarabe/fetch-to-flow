@@ -6,7 +6,7 @@ using the [JavaScript Fetch API](https://developer.mozilla.org/en-US/docs/Web/AP
 ## Prerequisites
 
 - A copy of this repository (or at least the `index.html` file)
-- An Office365 account licenses to use PowerAutomate. 
+- An Office365 account licensed to use PowerAutomate. 
 - A working NodeJS environment (preferred) or a web server to host the `index.html` file.
 
 ## Setting Up
